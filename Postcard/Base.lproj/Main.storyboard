@@ -95,7 +95,7 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="41" y="84" width="320" height="43"/>
+                                    <rect key="frame" x="45" y="115" width="320" height="43"/>
                                 </variation>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AlbertEinsteinStamp.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ien-Sn-rbD">
@@ -104,6 +104,15 @@
                                     <rect key="frame" x="241" y="155" width="120" height="80"/>
                                 </variation>
                             </imageView>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wIr-KM-1xf">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="45" y="95" width="42" height="21"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -113,6 +122,7 @@
                                 <exclude reference="Psn-VI-Al5"/>
                                 <exclude reference="Y3H-Ks-azC"/>
                                 <exclude reference="ien-Sn-rbD"/>
+                                <exclude reference="wIr-KM-1xf"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -122,6 +132,7 @@
                                 <include reference="Psn-VI-Al5"/>
                                 <include reference="Y3H-Ks-azC"/>
                                 <include reference="ien-Sn-rbD"/>
+                                <include reference="wIr-KM-1xf"/>
                             </mask>
                         </variation>
                     </view>
@@ -130,6 +141,7 @@
                         <outlet property="enterNameTextField" destination="4Ur-o1-frP" id="sAK-CX-3QQ"/>
                         <outlet property="mailButton" destination="Psn-VI-Al5" id="2cS-tS-wVH"/>
                         <outlet property="messageLabel" destination="Y3H-Ks-azC" id="5L7-hj-qbs"/>
+                        <outlet property="nameLabel" destination="wIr-KM-1xf" id="773-PD-Ck6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
